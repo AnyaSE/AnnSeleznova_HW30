@@ -1,0 +1,22 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; /* optional - adds a 10px gap between items */
+  }
+
+  .item {
+    display: grid;
+    grid-template-columns: 1fr;
+    outline: 2px solid black;
+  }
+
+.info__card {
+  position: absolute; 
+  top: 150px;
+  left: 400px;
+  background-color: lightpink;
+  padding: 50px;
+  margin: 20px;
+  outline: 2px solid grey;
+  border-radius: 10px;
+}
